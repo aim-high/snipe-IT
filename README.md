@@ -1,9 +1,12 @@
 # snipe-IT
 
+[Installation Overview](https://snipe-it.readme.io/docs/installation)
+
 Set Up Documentation (will edit as I configure)
-Ubuntu Server 18.04
+Ubuntu Server 20.04
 Git
-PHP
+PHP 7.1.2 (or higher)
+MySQL or MariaDB
 
 $ sudo apt update
 $ sudo apt install git
