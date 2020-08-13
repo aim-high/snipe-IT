@@ -33,4 +33,19 @@ All system config variables are stored in .env
 ```$ cp .env.example .env```
 
 Change APP_KEY within .env file in project's root
+
 ```$ php artisan key:generate```
+
+Snipe-IT on Docker
+[resource](https://snipe-it.readme.io/docs/docker)
+
+Requirements:
+* Docker Desktop client
+
+Get Snipe-IT's docker image
+```docker pull snipe/snipe-it```
+
+Run MySQL container
+```docker run --name snipe-mysql --env-file=my_env_file --mount source=snipesql-vol,target=/var/lib/mysql -d -P mysql:5.6```
+
+
